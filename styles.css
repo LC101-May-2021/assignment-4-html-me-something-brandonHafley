@@ -21,6 +21,10 @@ header {
     font-family: 'Otomanopee One', sans-serif;
 }
 
+#mainHeading {
+    color: red;
+}
+
 main {
     margin: 5px auto;
     width: 60%;
