@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    color: #fbeec1;
     background-color: #daad86;
     border: 5px outset #8d8741;
     margin: auto;
@@ -17,7 +18,7 @@ header {
     text-shadow: black 1px 0 10px;
     font-weight: bold;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    /* font-family: 'Otomanopee One', sans-serif; */
 }
 
 #mainHeading {
@@ -43,8 +44,4 @@ footer {
 
 #firstThailand {
     width: 30%;
-}
-
-.funParagraph {
-    color: green;
 }

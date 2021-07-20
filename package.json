@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jasmine": "^3.8.0",
+    "jasmine": "^3.6.3",
     "jsdom": "^16.4.0"
   },
   "dependencies": {}
