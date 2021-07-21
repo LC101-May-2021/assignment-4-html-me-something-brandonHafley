@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jasmine"
   },
-  "author": "",
+  "author": "Brandon Hafley",
   "license": "ISC",
   "devDependencies": {
     "jasmine": "^3.6.3",
