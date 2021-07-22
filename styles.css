@@ -80,11 +80,11 @@ img {
     display: grid;
     justify-content: center;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 47%;
 }
 
 #gridContainer img {
-    width: 650px;
+    width: 90%;
 }
 
 #img1 {
