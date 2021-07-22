@@ -46,7 +46,7 @@ footer {
     width: 100%;
     background-color: #fbeec1;
     border-top: 5px ridge #daad86;
-    height: 50px;
+    height: 40px;
 }
 
 figcaption {
@@ -65,7 +65,7 @@ img {
 
 .funParagraph {
     color: green;
-    font-size: medium;
+    font-size: small;
 }
 
 #firstArticleDiv {
@@ -80,7 +80,7 @@ img {
     display: grid;
     justify-content: center;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 50% 50%;
 }
 
 #gridContainer img {
@@ -115,4 +115,13 @@ img {
 #img6 {
     grid-row: 3;
     grid-column: 2/3;
+}
+
+#closingParagraph {
+    width: 60%;
+}
+
+#thirdArticle {
+    display: flex;
+    justify-content: center;
 }
