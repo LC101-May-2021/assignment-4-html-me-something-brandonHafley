@@ -1,1 +1,128 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-image: url("https://images.unsplash.com/photo-1616421310226-7453165b353e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2056&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 2.7em;
+}
+
+header {
+    color: #fbeec1;
+    background-color: #daad86;
+    border: 5px outset #8d8741;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    text-shadow: black 1px 0 10px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+main {
+    margin: 5px auto;
+    width: 60%;
+}
+
+article {
+    margin: 10px;
+    border: 5px outset #daad86;
+    background-color: #fbeec1;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #fbeec1;
+    border-top: 5px ridge #daad86;
+    height: 40px;
+}
+
+figcaption {
+    font-size: 0.5em;
+    text-align: center;
+}
+
+img {
+    margin: 5px;
+    border: 5px outset #daad86;
+}
+
+#firstThailand {
+    width: 500px;
+}
+
+.funParagraph {
+    color: green;
+    font-size: small;
+}
+
+#firstArticleDiv {
+    width: 60%;
+}
+
+#mainHeading {
+    color: #fbeec1;
+}
+
+#gridContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 50% 47%;
+}
+
+#gridContainer img {
+    width: 90%;
+    height: 85%;
+}
+
+#img1 {
+    grid-row: 1;
+    grid-column: 1/2;
+}
+
+#img2 {
+    grid-row: 1;
+    grid-column: 2/3;
+}
+
+#img3 {
+    grid-row: 2;
+    grid-column: 1/2;
+}
+
+#img4 {
+    grid-row: 2;
+    grid-column: 2/3;
+}
+
+#img5 {
+    grid-row: 3;
+    grid-column: 1/2;
+}
+
+#img6 {
+    grid-row: 3;
+    grid-column: 2/3;
+}
+
+#closingParagraph {
+    width: 60%;
+}
+
+#thirdArticle {
+    display: flex;
+    justify-content: center;
+}
