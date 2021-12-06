@@ -18,7 +18,7 @@ header {
     text-shadow: black 1px 0 10px;
     font-weight: bold;
     font-size: x-large;
-    /* font-family: 'Otomanopee One', sans-serif; */
+    font-family: 'Otomanopee One', sans-serif;
 }
 
 main {
@@ -73,7 +73,7 @@ img {
 }
 
 #mainHeading {
-    color: red;
+    color: #fbeec1;
 }
 
 #gridContainer {
